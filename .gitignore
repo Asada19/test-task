@@ -1,0 +1,53 @@
+# Переменные окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Виртуальные окружения Python
+.venv
+venv/
+env/
+ENV/
+
+# Python кэш и компилированные файлы
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Системные файлы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Тестирование и покрытие
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Логи
+*.log
+logs/
+chatbot.log
+
+# LangGraph специфичные файлы
+.langgraph_api/
+
